@@ -1,4 +1,4 @@
-/* :root e GERAL (mantidos) */
+/* :root e GERAL */
 :root {
   --color-primary: #4338ca;
   --color-primary-light: #6366f1;
@@ -29,7 +29,7 @@ body {
   color: var(--color-text-primary);
 }
 
-/* LAYOUT PRINCIPAL (mantido) */
+/* LAYOUT PRINCIPAL */
 .app-layout {
   display: flex;
 }
@@ -91,7 +91,7 @@ body {
   display: none;
 }
 
-/* COMPONENTES (atualizados) */
+/* COMPONENTES */
 .card {
   background-color: var(--color-surface);
   padding: 1.5rem;
@@ -218,7 +218,7 @@ body {
   margin-bottom: 1rem;
 }
 
-/* RESPONSIVIDADE (mantido) */
+/* RESPONSIVIDADE */
 @media (max-width: 768px) {
   .app-layout {
     flex-direction: column;
